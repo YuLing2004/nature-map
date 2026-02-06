@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpine Nature Trails</title>
+    <title>Nature Map - Alpine & Pyrenees Trails</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -13,8 +13,25 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1>Alpine Nature Trails</h1>
-            <p class="subtitle">Curated routes across the Alpine region</p>
+            <div class="series-selector" id="seriesSelector">
+                <button class="series-btn-toggle" id="seriesToggle">
+                    <span class="series-title" id="currentSeriesTitle">Alpine Nature Trails</span>
+                    <span class="series-subtitle" id="currentSeriesSubtitle">Curated routes across the Alpine region</span>
+                    <svg class="toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="series-options" id="seriesOptions">
+                    <button class="series-btn" data-series="alpine">
+                        <span class="series-title">Alpine Nature Trails</span>
+                        <span class="series-subtitle">Curated routes across the Alpine region</span>
+                    </button>
+                    <button class="series-btn" data-series="pyrenees">
+                        <span class="series-title">Southern France & Spanish Mountains</span>
+                        <span class="series-subtitle">Routes in Pyrenees and Mediterranean ranges</span>
+                    </button>
+                </div>
+            </div>
         </header>
 
         <div id="map"></div>

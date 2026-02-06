@@ -31,7 +31,7 @@ let currentLayerIndex = 0;
 
 // Initialize map
 function initMap() {
-    // Create map, center set to cover Slovenia, Northern Italy, Dolomites, Switzerland, Austria, and France
+    // Create map with initial center for Alpine region
     map = L.map('map', {
         zoomControl: true,
         attributionControl: true
@@ -45,11 +45,90 @@ function initMap() {
         map.invalidateSize();
     }, 100);
     
-    // Add all location markers
+    // Load initial series
+    loadSeries(currentSeries);
+}
+
+// Load series and update map
+function loadSeries(series) {
+    currentSeries = series;
+    
+    // Clear existing markers
+    markers.forEach(m => {
+        map.removeLayer(m.marker);
+    });
+    markers = [];
+    
+    // Set map view based on series
+    if (series === 'alpine') {
+        map.setView([46.3, 9.0], 7);
+    } else if (series === 'pyrenees') {
+        map.setView([42.5, 0.0], 7);
+    }
+    
+    // Add location markers
     addLocationMarkers();
     
     // Render location list
     renderLocationList();
+    
+    // Update series selector
+    updateSeriesSelector();
+}
+
+// Series selector configuration
+const seriesConfig = {
+    alpine: {
+        title: 'Alpine Nature Trails',
+        subtitle: 'Curated routes across the Alpine region'
+    },
+    pyrenees: {
+        title: 'Southern France & Spanish Mountains',
+        subtitle: 'Routes in Pyrenees and Mediterranean ranges'
+    }
+};
+
+// Update series selector UI
+function updateSeriesSelector() {
+    const selector = document.getElementById('seriesSelector');
+    const currentTitle = document.getElementById('currentSeriesTitle');
+    const currentSubtitle = document.getElementById('currentSeriesSubtitle');
+    
+    // Update current series display
+    if (seriesConfig[currentSeries]) {
+        currentTitle.textContent = seriesConfig[currentSeries].title;
+        currentSubtitle.textContent = seriesConfig[currentSeries].subtitle;
+    }
+    
+    // Update active state in options
+    document.querySelectorAll('.series-btn').forEach(btn => {
+        if (btn.dataset.series === currentSeries) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+    
+    // Collapse selector after selection
+    collapseSeriesSelector();
+}
+
+// Toggle series selector
+function toggleSeriesSelector() {
+    const selector = document.getElementById('seriesSelector');
+    selector.classList.toggle('expanded');
+}
+
+// Expand series selector
+function expandSeriesSelector() {
+    const selector = document.getElementById('seriesSelector');
+    selector.classList.add('expanded');
+}
+
+// Collapse series selector
+function collapseSeriesSelector() {
+    const selector = document.getElementById('seriesSelector');
+    selector.classList.remove('expanded');
 }
 
 // Add map layer (with error handling)
@@ -95,6 +174,7 @@ function addMapLayer(index) {
 
 // Add location markers
 function addLocationMarkers() {
+    const locations = getCurrentLocations();
     locations.forEach(location => {
         // Create custom icon based on region
         let markerClass = 'custom-marker'; // default Slovenia
@@ -110,6 +190,10 @@ function addLocationMarkers() {
             markerClass = 'custom-marker-france';
         } else if (location.region === 'germany') {
             markerClass = 'custom-marker-germany';
+        } else if (location.region === 'france-south') {
+            markerClass = 'custom-marker-france-south';
+        } else if (location.region === 'spain') {
+            markerClass = 'custom-marker-spain';
         }
         
         const customIcon = L.divIcon({
@@ -149,6 +233,7 @@ function renderLocationList() {
     const listContainer = document.getElementById('locationList');
     listContainer.innerHTML = '';
     
+    const locations = getCurrentLocations();
     locations.forEach(location => {
         const item = document.createElement('div');
         item.className = 'location-item';
@@ -167,6 +252,10 @@ function renderLocationList() {
             regionBadge = '<span class="region-badge region-france">France</span>';
         } else if (location.region === 'germany') {
             regionBadge = '<span class="region-badge region-germany">Germany</span>';
+        } else if (location.region === 'france-south') {
+            regionBadge = '<span class="region-badge region-france-south">France South</span>';
+        } else if (location.region === 'spain') {
+            regionBadge = '<span class="region-badge region-spain">Spain</span>';
         }
         
         item.innerHTML = `
@@ -256,9 +345,38 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // Check if data loaded successfully
-    if (typeof locations === 'undefined') {
-        console.error('Location data not loaded, please check data.js file');
+    if (typeof seriesData === 'undefined') {
+        console.error('Series data not loaded, please check data.js file');
     }
+    
+    // Series selector toggle button
+    const seriesToggle = document.getElementById('seriesToggle');
+    if (seriesToggle) {
+        seriesToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleSeriesSelector();
+        });
+    }
+    
+    // Series selector option buttons
+    document.querySelectorAll('.series-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const series = btn.dataset.series;
+            if (series !== currentSeries) {
+                loadSeries(series);
+            } else {
+                collapseSeriesSelector();
+            }
+        });
+    });
+    
+    // Close series selector when clicking outside
+    document.addEventListener('click', (e) => {
+        const selector = document.getElementById('seriesSelector');
+        if (selector && !selector.contains(e.target)) {
+            collapseSeriesSelector();
+        }
+    });
     
     // Initialize map
     try {

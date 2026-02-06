@@ -1,5 +1,6 @@
-// Location data - Slovenia and Northern Italy nature trails
-const locations = [
+// Location data organized by series
+const seriesData = {
+    alpine: [
     // Slovenia trails
     {
         id: 1,
@@ -1008,4 +1009,347 @@ const locations = [
         region: 'germany',
         description: '新天鹅堡附近的人工湖，湖岸步道连接多个景点。结合历史与自然，适合一日游安排。| Artificial lake near Neuschwanstein, lakeside trail connecting multiple attractions. Combining history and nature, perfect for day trip planning.'
     }
-];
+    ],
+    pyrenees: [
+        // Southern France trails
+        {
+            id: 100,
+            name: 'Cirque de Gavarnie',
+            lat: 42.7333,
+            lng: -0.0167,
+            distance: '6km',
+            duration: '2h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'france-south',
+            description: '世界遗产的天然圆形剧场，423米高的瀑布从悬崖倾泻而下。从村庄出发的轻松步道，面向雄伟的岩壁。| UNESCO World Heritage natural amphitheater, 423m waterfall cascading from cliffs. Easy trail from village, facing majestic rock walls.'
+        },
+        {
+            id: 101,
+            name: 'Pic du Midi de Bigorre',
+            lat: 43.0667,
+            lng: 0.1500,
+            distance: '4km',
+            duration: '1.5h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'france-south',
+            description: '缆车直达2877米，著名的天文台所在地。360度比利牛斯山脉全景，极端高海拔体验。| Cable car to 2877m, famous observatory location. 360-degree Pyrenees panorama, extreme high-altitude experience.'
+        },
+        {
+            id: 102,
+            name: 'Lac de Gaube',
+            lat: 42.8500,
+            lng: -0.1167,
+            distance: '8km',
+            duration: '2.5h',
+            bestSeason: 'Best: Jun-Oct',
+            region: 'france-south',
+            description: '高山湖泊，正对维涅马勒峰。从卡泰雷特出发的步道，穿过森林到达清澈的湖泊。| Alpine lake facing Vignemale peak. Trail from Cauterets, through forests to crystal clear lake.'
+        },
+        {
+            id: 103,
+            name: 'Pont d\'Espagne – Lac de Gaube',
+            lat: 42.8667,
+            lng: -0.1167,
+            distance: '5km',
+            duration: '1.5h',
+            bestSeason: 'Best: May-Oct',
+            region: 'france-south',
+            description: '从历史石桥到高山湖泊的经典路线。瀑布、森林和湖泊的组合，适合所有年龄。| Classic route from historic stone bridge to alpine lake. Combination of waterfalls, forests and lakes, suitable for all ages.'
+        },
+        {
+            id: 104,
+            name: 'Col du Tourmalet – Pic du Midi',
+            lat: 42.9167,
+            lng: 0.1500,
+            distance: '10km',
+            duration: '4h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'france-south',
+            description: '从著名的环法自行车赛山口出发，徒步到皮克杜米迪。高海拔步道，视野极其开阔。| Starting from famous Tour de France pass, hike to Pic du Midi. High-altitude trail, extremely open vistas.'
+        },
+        {
+            id: 105,
+            name: 'Gorges de Kakuetta',
+            lat: 43.1167,
+            lng: -0.8833,
+            distance: '3km',
+            duration: '1.5h',
+            bestSeason: 'Best: Apr-Oct',
+            region: 'france-south',
+            description: '狭窄的石灰岩峡谷，有栈道和瀑布。巴斯克地区的自然奇观，短途但感官密度高。| Narrow limestone gorge with boardwalks and waterfalls. Natural wonder in Basque Country, short but high sensory density.'
+        },
+        {
+            id: 106,
+            name: 'Lac d\'Artouste',
+            lat: 42.8667,
+            lng: -0.4000,
+            distance: '6km',
+            duration: '2h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'france-south',
+            description: '高山小火车到达的湖泊，海拔2000米。人工湖但位置绝佳，周围是原始的高山景观。| Lake reached by mountain train, 2000m elevation. Artificial but excellent location, surrounded by pristine alpine scenery.'
+        },
+        // Spanish Pyrenees trails
+        {
+            id: 200,
+            name: 'Ordesa y Monte Perdido National Park',
+            lat: 42.6500,
+            lng: -0.0333,
+            distance: '12km',
+            duration: '4h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'spain',
+            description: '西班牙最古老的国家公园之一，奥德萨峡谷令人惊叹。垂直的岩壁和瀑布，世界遗产地。| One of Spain\'s oldest national parks, Ordesa Canyon is stunning. Vertical cliffs and waterfalls, UNESCO World Heritage site.'
+        },
+        {
+            id: 201,
+            name: 'Aigüestortes i Estany de Sant Maurici',
+            lat: 42.5833,
+            lng: 0.9333,
+            distance: '10km',
+            duration: '3.5h',
+            bestSeason: 'Best: Jun-Oct',
+            region: 'spain',
+            description: '加泰罗尼亚唯一的国家公园，200多个高山湖泊。冰川景观，适合多日徒步。| Catalonia\'s only national park, over 200 alpine lakes. Glacial landscapes, suitable for multi-day hiking.'
+        },
+        {
+            id: 202,
+            name: 'Valle de Tena – Ibón de Piedrafita',
+            lat: 42.7167,
+            lng: -0.3167,
+            distance: '8km',
+            duration: '2.5h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'spain',
+            description: '从特纳谷到高山湖泊的步道。传统阿拉贡村庄，进入原始高山环境。| Trail from Tena Valley to alpine lake. Traditional Aragon villages, entering pristine alpine environment.'
+        },
+        {
+            id: 203,
+            name: 'Camino de Santiago – Pyrenees Section',
+            lat: 42.8333,
+            lng: -1.0000,
+            distance: '15km',
+            duration: '5h',
+            bestSeason: 'Best: May-Oct',
+            region: 'spain',
+            description: '著名的朝圣之路在比利牛斯山的部分。历史与自然结合，文化意义深远。| Famous pilgrimage route through Pyrenees. Combining history and nature, profound cultural significance.'
+        },
+        {
+            id: 204,
+            name: 'Panticosa – Ibones de Bachimaña',
+            lat: 42.7333,
+            lng: -0.2833,
+            distance: '9km',
+            duration: '3h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'spain',
+            description: '从温泉小镇到高山湖泊群。传统比利牛斯山村庄氛围，进入原始高山环境。| From spa town to alpine lake group. Traditional Pyrenees village atmosphere, entering pristine alpine environment.'
+        },
+        {
+            id: 205,
+            name: 'Valle de Ansó – Selva de Oza',
+            lat: 42.8333,
+            lng: -0.8333,
+            distance: '11km',
+            duration: '4h',
+            bestSeason: 'Best: Jun-Oct',
+            region: 'spain',
+            description: '保存完好的山谷，原始森林和传统建筑。相对较少游客，体验传统比利牛斯山生活。| Well-preserved valley, pristine forests and traditional architecture. Relatively fewer tourists, experience traditional Pyrenees life.'
+        },
+        {
+            id: 206,
+            name: 'Parque Natural de la Sierra y Cañones de Guara',
+            lat: 42.3167,
+            lng: -0.2000,
+            distance: '8km',
+            duration: '3h',
+            bestSeason: 'Best: Apr-Oct',
+            region: 'spain',
+            description: '阿拉贡的天然公园，以峡谷和洞穴闻名。地中海气候影响，植被独特。| Aragon natural park, famous for canyons and caves. Mediterranean climate influence, unique vegetation.'
+        },
+        {
+            id: 207,
+            name: 'Montserrat – Sant Jeroni Summit',
+            lat: 41.6000,
+            lng: 1.8333,
+            distance: '6km',
+            duration: '2.5h',
+            bestSeason: 'Year-round',
+            region: 'spain',
+            description: '加泰罗尼亚的圣山，独特的锯齿状岩峰。从修道院出发的步道，文化意义深远。| Catalonia\'s holy mountain, unique jagged rock peaks. Trail from monastery, profound cultural significance.'
+        },
+        {
+            id: 208,
+            name: 'Sierra Nevada – Mulhacén Summit Trail',
+            lat: 37.0500,
+            lng: -3.3167,
+            distance: '18km',
+            duration: '8h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'spain',
+            description: '伊比利亚半岛最高峰（3479米），从阿尔普哈拉斯山谷出发。高难度路线，需要经验和准备，但视野极其壮观。| Highest peak in Iberian Peninsula (3479m), starting from Alpujarras valley. Challenging route requiring experience and preparation, but extremely spectacular views.'
+        },
+        {
+            id: 209,
+            name: 'Sierra Nevada – Laguna de Aguas Verdes',
+            lat: 37.0833,
+            lng: -3.3000,
+            distance: '12km',
+            duration: '5h',
+            bestSeason: 'Best: Jun-Oct',
+            region: 'spain',
+            description: '内华达山脉的高山湖泊，海拔3000米以上。冰川形成的湖泊，周围是裸露的岩石山峰，景观原始。| Alpine lake in Sierra Nevada, over 3000m elevation. Glacial-formed lake, surrounded by bare rock peaks, pristine landscape.'
+        },
+        {
+            id: 210,
+            name: 'Picos de Europa – Ruta del Cares',
+            lat: 43.1833,
+            lng: -4.8333,
+            distance: '12km',
+            duration: '4h',
+            bestSeason: 'Best: May-Oct',
+            region: 'spain',
+            description: '欧洲之巅最著名的路线，沿着卡雷斯河峡谷。部分路段在岩壁上开凿，工程壮观，风景绝美。| Most famous route in Picos de Europa, along Cares River gorge. Some sections carved into rock walls, spectacular engineering, stunning scenery.'
+        },
+        {
+            id: 211,
+            name: 'Picos de Europa – Naranjo de Bulnes',
+            lat: 43.2000,
+            lng: -4.8167,
+            distance: '14km',
+            duration: '6h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'spain',
+            description: '西班牙最著名的攀岩山峰之一，从乌尔迪昂出发的观景路线。石灰岩山峰，垂直岩壁极具视觉冲击。| One of Spain\'s most famous climbing peaks, viewing route from Urriellu. Limestone peak, vertical rock walls extremely visually striking.'
+        },
+        {
+            id: 212,
+            name: 'Picos de Europa – Lagos de Covadonga',
+            lat: 43.2667,
+            lng: -5.0167,
+            distance: '6km',
+            duration: '2h',
+            bestSeason: 'Best: Jun-Oct',
+            region: 'spain',
+            description: '两个冰川湖泊，海拔1100米。从科瓦东加出发的轻松步道，适合所有年龄，风景如画。| Two glacial lakes, 1100m elevation. Easy trail from Covadonga, suitable for all ages, picturesque scenery.'
+        },
+        {
+            id: 213,
+            name: 'Sierra de Guadarrama – Peñalara Summit',
+            lat: 40.8500,
+            lng: -3.9667,
+            distance: '10km',
+            duration: '4h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'spain',
+            description: '瓜达拉马山脉最高峰（2428米），距离马德里仅一小时。高山湖泊和草甸，适合一日游。| Highest peak in Sierra de Guadarrama (2428m), only one hour from Madrid. Alpine lakes and meadows, perfect for day trip.'
+        },
+        {
+            id: 214,
+            name: 'Sierra de Gredos – Circo de Gredos',
+            lat: 40.2500,
+            lng: -5.3000,
+            distance: '14km',
+            duration: '5h',
+            bestSeason: 'Best: Jun-Sep',
+            region: 'spain',
+            description: '格雷多斯山脉的冰川圆形剧场，多个高山湖泊。花岗岩山峰，景观原始，人相对较少。| Glacial amphitheater in Sierra de Gredos, multiple alpine lakes. Granite peaks, pristine landscape, relatively fewer people.'
+        },
+        {
+            id: 215,
+            name: 'Cabo de Gata – Playa de los Genoveses',
+            lat: 36.8333,
+            lng: -2.0833,
+            distance: '8km',
+            duration: '2.5h',
+            bestSeason: 'Best: Oct-Apr',
+            region: 'spain',
+            description: '安达卢西亚的自然公园，火山地貌和原始海滩。地中海气候，冬季最佳，夏季太热。| Natural park in Andalusia, volcanic landscape and pristine beaches. Mediterranean climate, best in winter, too hot in summer.'
+        },
+        {
+            id: 216,
+            name: 'Sierra de Cazorla – Río Borosa Trail',
+            lat: 38.0833,
+            lng: -2.8333,
+            distance: '10km',
+            duration: '3.5h',
+            bestSeason: 'Best: Apr-Jun / Sep-Nov',
+            region: 'spain',
+            description: '西班牙最大的自然公园，沿着博罗萨河的步道。瀑布、峡谷和森林，生物多样性丰富。| Spain\'s largest natural park, trail along Borosa River. Waterfalls, gorges and forests, rich biodiversity.'
+        },
+        {
+            id: 217,
+            name: 'Parque Natural de los Alcornocales',
+            lat: 36.3333,
+            lng: -5.5833,
+            distance: '12km',
+            duration: '4h',
+            bestSeason: 'Best: Oct-May',
+            region: 'spain',
+            description: '欧洲最大的软木橡树林，地中海森林生态系统。相对平坦的步道，适合轻松徒步，鸟类丰富。| Europe\'s largest cork oak forest, Mediterranean forest ecosystem. Relatively flat trails, suitable for easy hiking, rich birdlife.'
+        },
+        {
+            id: 218,
+            name: 'Sierra de Grazalema – Garganta Verde',
+            lat: 36.7500,
+            lng: -5.3667,
+            distance: '6km',
+            duration: '2.5h',
+            bestSeason: 'Best: Oct-May',
+            region: 'spain',
+            description: '安达卢西亚的石灰岩山脉，狭窄的绿色峡谷。需要提前预约，保护严格，自然原始。| Limestone mountains in Andalusia, narrow green gorge. Requires advance booking, strict protection, pristine nature.'
+        },
+        {
+            id: 219,
+            name: 'Islas Cíes – Monte Faro Trail',
+            lat: 42.2167,
+            lng: -8.9000,
+            distance: '5km',
+            duration: '2h',
+            bestSeason: 'Best: May-Sep',
+            region: 'spain',
+            description: '加利西亚海岸的岛屿，需要乘船到达。从海滩到山顶的步道，大西洋全景，被誉为"大西洋的加勒比"。| Islands off Galicia coast, requires boat access. Trail from beach to summit, Atlantic panorama, known as "Caribbean of the Atlantic".'
+        },
+        {
+            id: 220,
+            name: 'Parque Natural de la Albufera',
+            lat: 39.3333,
+            lng: -0.3500,
+            distance: '8km',
+            duration: '2.5h',
+            bestSeason: 'Year-round',
+            region: 'spain',
+            description: '瓦伦西亚附近的湿地公园，重要的候鸟栖息地。平缓的步道，适合观鸟，结合了自然和文化。| Wetland park near Valencia, important migratory bird habitat. Gentle trails, perfect for birdwatching, combining nature and culture.'
+        },
+        {
+            id: 221,
+            name: 'Sierra de Tramuntana – Torrent de Pareis',
+            lat: 39.8333,
+            lng: 2.8167,
+            distance: '7km',
+            duration: '3h',
+            bestSeason: 'Best: Apr-Jun / Sep-Oct',
+            region: 'spain',
+            description: '马略卡岛的世界遗产山脉，狭窄的峡谷和清澈的水池。需要一定技术，但风景独特，地中海岛屿特色。| UNESCO World Heritage mountains in Mallorca, narrow gorge and clear pools. Requires some technique, but unique scenery, Mediterranean island character.'
+        },
+        {
+            id: 222,
+            name: 'Parque Nacional de las Tablas de Daimiel',
+            lat: 39.1500,
+            lng: -3.7000,
+            distance: '4km',
+            duration: '1.5h',
+            bestSeason: 'Best: Oct-Apr',
+            region: 'spain',
+            description: '拉曼查地区的湿地公园，重要的鸟类保护区。木板步道，适合观鸟，冬季最佳，夏季可能干涸。| Wetland park in La Mancha, important bird sanctuary. Boardwalk trails, perfect for birdwatching, best in winter, may dry in summer.'
+        }
+    ]
+};
+
+// Current series
+let currentSeries = 'alpine';
+
+// Get current locations based on selected series
+function getCurrentLocations() {
+    return seriesData[currentSeries] || [];
+}
