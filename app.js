@@ -108,6 +108,8 @@ function addLocationMarkers() {
             markerClass = 'custom-marker-austria';
         } else if (location.region === 'france') {
             markerClass = 'custom-marker-france';
+        } else if (location.region === 'germany') {
+            markerClass = 'custom-marker-germany';
         }
         
         const customIcon = L.divIcon({
@@ -163,6 +165,8 @@ function renderLocationList() {
             regionBadge = '<span class="region-badge region-austria">Austria</span>';
         } else if (location.region === 'france') {
             regionBadge = '<span class="region-badge region-france">France</span>';
+        } else if (location.region === 'germany') {
+            regionBadge = '<span class="region-badge region-germany">Germany</span>';
         }
         
         item.innerHTML = `
@@ -203,7 +207,7 @@ function showLocationDetails(location) {
                 <strong>Best Season:</strong> ${location.bestSeason}
             </div>
         </div>
-        <div class="modal-description">${location.description}</div>
+        <div class="modal-description">${location.description.replace(/\|/g, '<br><br>')}</div>
     `;
     
     modal.classList.add('show');

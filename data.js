@@ -10,7 +10,7 @@ const locations = [
         duration: '1.5h',
         bestSeason: 'Best: May-Oct',
         region: 'slovenia',
-        description: 'Suspended boardwalk winding along emerald green waters, Šum waterfall is absolutely stunning! One-way trail design, remember to book tickets online in advance. 🚗 Parking is first-come-first-served (P1-P6 are closer).'
+        description: '悬空栈道沿着翠绿色的水流蜿蜒，Šum瀑布绝对令人惊叹！单向步道设计，记得提前在线预订门票。🚗 停车位先到先得（P1-P6更近）。| Suspended boardwalk winding along emerald green waters, Šum waterfall is absolutely stunning! One-way trail design, remember to book tickets online in advance. 🚗 Parking is first-come-first-served (P1-P6 are closer).'
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const locations = [
         duration: '1.5h',
         bestSeason: 'Best: Jul-Sep',
         region: 'slovenia',
-        description: 'Through neighborhoods, then gravel and rocky paths! Moderate difficulty trail, but wet sections can be slippery. Entrance and summit café only accept cash, remember to bring some.'
+        description: '穿过居民区，然后是碎石和岩石小径！中等难度步道，但潮湿路段可能很滑。入口和山顶咖啡馆只接受现金，记得带一些。| Through neighborhoods, then gravel and rocky paths! Moderate difficulty trail, but wet sections can be slippery. Entrance and summit café only accept cash, remember to bring some.'
     },
     {
         id: 3,
@@ -32,7 +32,7 @@ const locations = [
         duration: '2.7h',
         bestSeason: 'Best: Jul-Oct',
         region: 'slovenia',
-        description: 'Starting from Vršič Pass, summit viewpoint of the Julian Alps, overlooking layered mountain ranges! More suitable for experienced hikers, beginners should bring proper gear.'
+        description: '从弗尔希奇山口出发，朱利安阿尔卑斯山的山顶观景点，俯瞰层叠的山脉！更适合有经验的徒步者，初学者应携带合适的装备。| Starting from Vršič Pass, summit viewpoint of the Julian Alps, overlooking layered mountain ranges! More suitable for experienced hikers, beginners should bring proper gear.'
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ const locations = [
         duration: '1.5h',
         bestSeason: 'Year-round',
         region: 'slovenia',
-        description: 'Lakeside hike + castle visit in one go! Forest paths can be slippery in rain, but the views are absolutely worth it 😭 You can take a boat to the island, and explore Bled town along the way.'
+        description: '湖边徒步+城堡参观一次完成！森林小径在雨天可能很滑，但景色绝对值得 😭 可以乘船到岛上，沿途探索布莱德小镇。| Lakeside hike + castle visit in one go! Forest paths can be slippery in rain, but the views are absolutely worth it 😭 You can take a boat to the island, and explore Bled town along the way.'
     },
     {
         id: 5,
@@ -54,7 +54,7 @@ const locations = [
         duration: '3.2h',
         bestSeason: 'Best: Jun-Oct',
         region: 'slovenia',
-        description: 'Stunning mountain views in summer, transforms into ski slopes in winter! Counter-clockwise route is easier, loose rocks on uphill and downhill sections, trekking poles are essential ✅'
+        description: '夏季山景壮丽，冬季变成滑雪坡道！逆时针路线更容易，上下坡路段有松散的岩石，登山杖是必需的 ✅ | Stunning mountain views in summer, transforms into ski slopes in winter! Counter-clockwise route is easier, loose rocks on uphill and downhill sections, trekking poles are essential ✅'
     },
     {
         id: 6,
@@ -65,7 +65,7 @@ const locations = [
         duration: '4h',
         bestSeason: 'Year-round',
         region: 'slovenia',
-        description: 'Traverse narrow gorges, water so emerald green it glows! Restaurant before the waterfall at the end, perfect spot for a coffee break.'
+        description: '穿越狭窄的峡谷，水色翠绿如发光！瀑布前的餐厅，是休息喝咖啡的完美地点。| Traverse narrow gorges, water so emerald green it glows! Restaurant before the waterfall at the end, perfect spot for a coffee break.'
     },
     {
         id: 7,
@@ -76,7 +76,7 @@ const locations = [
         duration: '4.5h',
         bestSeason: 'Best: Jul-Aug',
         region: 'slovenia',
-        description: 'Hidden gem route known only to locals! Initial climb is a bit tiring, but summer peaks 🏔️ feature wildflowers and grazing cattle, perfect for photos.'
+        description: '只有当地人才知道的隐藏宝藏路线！初始爬升有点累，但夏季的山峰 🏔️ 有野花和放牧的牛群，非常适合拍照。| Hidden gem route known only to locals! Initial climb is a bit tiring, but summer peaks 🏔️ feature wildflowers and grazing cattle, perfect for photos.'
     },
     {
         id: 8,
@@ -87,7 +87,7 @@ const locations = [
         duration: '6h',
         bestSeason: 'Best: Jun-Sep',
         region: 'slovenia',
-        description: 'Crossing Triglav National Park, passing 7 alpine lakes! Water so clear you can see fish, rich landscapes of forests + rocky mountains.'
+        description: '穿越特里格拉夫国家公园，经过7个高山湖泊！水清澈见底，可以看到鱼，丰富的森林+岩石山地景观。| Crossing Triglav National Park, passing 7 alpine lakes! Water so clear you can see fish, rich landscapes of forests + rocky mountains.'
     },
     {
         id: 9,
@@ -98,7 +98,7 @@ const locations = [
         duration: '7h',
         bestSeason: 'Year-round',
         region: 'slovenia',
-        description: 'Following the emerald Soča River, through pristine national park, suspension bridges crossing gorges are thrilling! Well-marked trail, fishing possible along the way.'
+        description: '沿着翠绿色的索查河，穿过原始的国家公园，跨越峡谷的悬索桥令人兴奋！路标清晰，沿途可以钓鱼。| Following the emerald Soča River, through pristine national park, suspension bridges crossing gorges are thrilling! Well-marked trail, fishing possible along the way.'
     },
     {
         id: 10,
@@ -109,7 +109,7 @@ const locations = [
         duration: '9.2h',
         bestSeason: 'Best: Jun-Sep',
         region: 'slovenia',
-        description: 'Summer blooms with alpine wildflowers, might even spot marmots! Some sections have many rocks, wear grippy shoes! Mountain huts available for rest along the way, check official website for opening hours.'
+        description: '夏季盛开着高山野花，甚至可能看到土拨鼠！某些路段有很多岩石，穿防滑鞋！沿途有山间小屋可供休息，查看官方网站了解开放时间。| Summer blooms with alpine wildflowers, might even spot marmots! Some sections have many rocks, wear grippy shoes! Mountain huts available for rest along the way, check official website for opening hours.'
     },
     // Northern Italy trails
     {
@@ -121,7 +121,7 @@ const locations = [
         duration: '1.5h',
         bestSeason: 'Best: Apr-Oct',
         region: 'italy',
-        description: 'Mixed lakeshore and hillside route with constantly changing perspectives, overlooking Lake Como\'s classic "Y-shaped" lake surface. Best light in early morning or evening, relatively fewer crowds.'
+        description: '混合湖岸和山坡路线，视角不断变化，俯瞰科莫湖经典的"Y形"湖面。清晨或傍晚光线最佳，相对人少。| Mixed lakeshore and hillside route with constantly changing perspectives, overlooking Lake Como\'s classic "Y-shaped" lake surface. Best light in early morning or evening, relatively fewer crowds.'
     },
     {
         id: 12,
@@ -132,7 +132,7 @@ const locations = [
         duration: '2.5h',
         bestSeason: 'Best: Apr-Jun / Sep-Oct',
         region: 'italy',
-        description: 'Medieval pilgrimage-level hiking route, alternating between stone paths, olive groves, and lakeside villages. Strong historical atmosphere, perfect for slow-paced walking.'
+        description: '中世纪朝圣级别的徒步路线，在石径、橄榄林和湖边村庄之间交替。历史氛围浓厚，非常适合慢节奏步行。| Medieval pilgrimage-level hiking route, alternating between stone paths, olive groves, and lakeside villages. Strong historical atmosphere, perfect for slow-paced walking.'
     },
     {
         id: 13,
@@ -143,7 +143,7 @@ const locations = [
         duration: '3-4h',
         bestSeason: 'Year-round',
         region: 'italy',
-        description: 'Gentle trail connecting multiple lakeside towns, can be done in sections. Features gardens, villas, and lake views throughout, perfect for "no-technical-pressure" scenic walking.'
+        description: '连接多个湖边小镇的平缓步道，可以分段完成。沿途有花园、别墅和湖景，非常适合"无技术压力"的风景步行。| Gentle trail connecting multiple lakeside towns, can be done in sections. Features gardens, villas, and lake views throughout, perfect for "no-technical-pressure" scenic walking.'
     },
     {
         id: 14,
@@ -154,7 +154,7 @@ const locations = [
         duration: '1.5h',
         bestSeason: 'Year-round',
         region: 'italy',
-        description: 'Walk along the peninsula to the Grotte di Catullo ruins at the end. Crystal clear waters, excellent combination of ruins and nature. Windy but with open vistas.'
+        description: '沿着半岛步行到尽头的卡图洛洞穴遗址。水晶般清澈的水域，遗址与自然的完美结合。有风但视野开阔。| Walk along the peninsula to the Grotte di Catullo ruins at the end. Crystal clear waters, excellent combination of ruins and nature. Windy but with open vistas.'
     },
     {
         id: 15,
@@ -165,7 +165,7 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: Jun-Sep',
         region: 'italy',
-        description: 'Cable car directly to 1700m elevation, ridge hiking overlooking the entire Lake Garda. Alpine meadows + large-scale lake views, quite windy, dress warmly.'
+        description: '缆车直达1700米海拔，山脊徒步俯瞰整个加尔达湖。高山草甸+大尺度湖景，风很大，注意保暖。| Cable car directly to 1700m elevation, ridge hiking overlooking the entire Lake Garda. Alpine meadows + large-scale lake views, quite windy, dress warmly.'
     },
     {
         id: 16,
@@ -176,7 +176,7 @@ const locations = [
         duration: '2.5h',
         bestSeason: 'Best: Apr-Oct',
         region: 'italy',
-        description: 'Classic cliffside lake route, gravel path but low technical difficulty. Lake water color changes are very noticeable, photography-friendly.'
+        description: '经典的悬崖边湖景路线，碎石路但技术难度低。湖水颜色变化非常明显，适合摄影。| Classic cliffside lake route, gravel path but low technical difficulty. Lake water color changes are very noticeable, photography-friendly.'
     },
     {
         id: 17,
@@ -187,7 +187,7 @@ const locations = [
         duration: '1-1.5h',
         bestSeason: 'Best: Apr-Oct',
         region: 'italy',
-        description: 'Lakeside walk + island garden combination, clear boundary between man-made and natural. Overall atmosphere is elegant and quiet.'
+        description: '湖边步行+岛屿花园组合，人工与自然界限清晰。整体氛围优雅安静。| Lakeside walk + island garden combination, clear boundary between man-made and natural. Overall atmosphere is elegant and quiet.'
     },
     {
         id: 18,
@@ -198,7 +198,7 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: Apr-Oct',
         region: 'italy',
-        description: 'Hiking around the lake\'s central island, almost no motor vehicles, very small village scale, strong local life atmosphere. One of the least "over-touristed" spots in the lake region.'
+        description: '环湖中央岛屿徒步，几乎没有机动车，村庄规模很小，当地生活氛围浓厚。湖区最不"过度旅游化"的地方之一。| Hiking around the lake\'s central island, almost no motor vehicles, very small village scale, strong local life atmosphere. One of the least "over-touristed" spots in the lake region.'
     },
     // Dolomites trails
     {
@@ -210,7 +210,7 @@ const locations = [
         duration: '3-4h',
         bestSeason: 'Best: Jun-Sep',
         region: 'dolomites',
-        description: 'The most iconic limestone peaks of the Dolomites, mature loop trail with clear signage. Experience vertical rock walls and scree slopes up close, windy with strong sun exposure, remember sun protection.'
+        description: '多洛米蒂最标志性的石灰岩山峰，成熟的环线步道，路标清晰。近距离体验垂直岩壁和碎石坡，风大且阳光强烈，记得防晒。| The most iconic limestone peaks of the Dolomites, mature loop trail with clear signage. Experience vertical rock walls and scree slopes up close, windy with strong sun exposure, remember sun protection.'
     },
     {
         id: 20,
@@ -221,7 +221,7 @@ const locations = [
         duration: '1-1.5h',
         bestSeason: 'Best: May-Oct',
         region: 'dolomites',
-        description: 'Turquoise blue lake + coniferous forests + cliff reflections, fewest people in early morning. Can walk around the lake or stop briefly for photos, heavily commercialized but visually stunning.'
+        description: '绿松石蓝色的湖泊+针叶林+悬崖倒影，清晨人最少。可以环湖步行或短暂停留拍照，商业化程度高但视觉震撼。| Turquoise blue lake + coniferous forests + cliff reflections, fewest people in early morning. Can walk around the lake or stop briefly for photos, heavily commercialized but visually stunning.'
     },
     {
         id: 21,
@@ -232,7 +232,7 @@ const locations = [
         duration: '2.5h',
         bestSeason: 'Best: Jun-Sep',
         region: 'dolomites',
-        description: 'Cable car directly to elevation, walking along knife-edge grassy slopes with extreme depth perception. Exposed path but not technically difficult, weather changes quickly, check cloud coverage.'
+        description: '缆车直达高海拔，沿着刀锋般的草坡行走，景深感知极强。暴露的小径但技术难度不高，天气变化快，注意查看云层覆盖情况。| Cable car directly to elevation, walking along knife-edge grassy slopes with extreme depth perception. Exposed path but not technically difficult, weather changes quickly, check cloud coverage.'
     },
     {
         id: 22,
@@ -243,7 +243,7 @@ const locations = [
         duration: '4h',
         bestSeason: 'Best: Jun-Sep',
         region: 'dolomites',
-        description: 'Europe\'s largest alpine meadow, gentle rolling highland with jagged rock peaks in the distance. Perfect for slow walking, photography, and relaxation, cattle everywhere in summer.'
+        description: '欧洲最大的高山草甸，平缓起伏的高地，远处是锯齿状的岩石山峰。非常适合慢行、摄影和放松，夏季到处是牛群。| Europe\'s largest alpine meadow, gentle rolling highland with jagged rock peaks in the distance. Perfect for slow walking, photography, and relaxation, cattle everywhere in summer.'
     },
     {
         id: 23,
@@ -254,7 +254,7 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: Jun-Sep',
         region: 'dolomites',
-        description: 'Starting from the pass with panoramic views, layered ridges create an extremely enclosed feeling. Light changes are very dramatic, especially stunning during sunset hours.'
+        description: '从山口开始，全景视野，层叠的山脊营造出极强的封闭感。光线变化非常戏剧性，日落时分尤其壮观。| Starting from the pass with panoramic views, layered ridges create an extremely enclosed feeling. Light changes are very dramatic, especially stunning during sunset hours.'
     },
     {
         id: 24,
@@ -265,7 +265,7 @@ const locations = [
         duration: '2h',
         bestSeason: 'Best: Jun-Sep',
         region: 'dolomites',
-        description: 'Massive rock towers standing in grassy slopes, WWI ruins scattered throughout. Short route but strong spatial tension, perfect for half-day trip.'
+        description: '巨大的岩石塔矗立在草坡上，一战遗址散布各处。路线短但空间张力强，非常适合半日游。| Massive rock towers standing in grassy slopes, WWI ruins scattered throughout. Short route but strong spatial tension, perfect for half-day trip.'
     },
     {
         id: 25,
@@ -276,7 +276,7 @@ const locations = [
         duration: '2.5-3h',
         bestSeason: 'Best: May-Oct',
         region: 'dolomites',
-        description: 'Classic "church + spires" picture valley, beautiful proportions of pastures and rock walls. Quiet villages, overall very slow-paced.'
+        description: '经典的"教堂+尖峰"画面山谷，牧场和岩壁比例优美。安静的村庄，整体节奏非常缓慢。| Classic "church + spires" picture valley, beautiful proportions of pastures and rock walls. Quiet villages, overall very slow-paced.'
     },
     {
         id: 26,
@@ -287,7 +287,7 @@ const locations = [
         duration: '4h',
         bestSeason: 'Best: Jun-Sep',
         region: 'dolomites',
-        description: 'Destination is a milky blue glacial lake, color is extremely unreal. Some sections have steel cable assistance, small exposed sections but not technical, slippery after rain.'
+        description: '目的地是乳蓝色的冰川湖，颜色极其不真实。某些路段有钢索辅助，小段暴露但无技术难度，雨后很滑。| Destination is a milky blue glacial lake, color is extremely unreal. Some sections have steel cable assistance, small exposed sections but not technical, slippery after rain.'
     },
     // Swiss Alps trails
     {
@@ -299,7 +299,7 @@ const locations = [
         duration: '2.5-3h',
         bestSeason: 'Best: Jun-Sep',
         region: 'switzerland',
-        description: 'Classic Matterhorn viewpoint route, connecting 5 alpine lakes, can see snow peak reflections on sunny days. Overall low difficulty, but high tourist density.'
+        description: '经典的马特洪峰观景路线，连接5个高山湖泊，晴天可以看到雪峰倒影。整体难度低，但游客密度高。| Classic Matterhorn viewpoint route, connecting 5 alpine lakes, can see snow peak reflections on sunny days. Overall low difficulty, but high tourist density.'
     },
     {
         id: 28,
@@ -310,7 +310,7 @@ const locations = [
         duration: '2h',
         bestSeason: 'Best: Jun-Sep',
         region: 'switzerland',
-        description: 'Mountain train directly to viewing ridge, overlooking glaciers and multiple 4000m+ snow peaks. Grand vistas, almost entirely "being watched".'
+        description: '山地火车直达观景山脊，俯瞰冰川和多个4000米以上的雪峰。壮观的景色，几乎完全是"被观看"的体验。| Mountain train directly to viewing ridge, overlooking glaciers and multiple 4000m+ snow peaks. Grand vistas, almost entirely "being watched".'
     },
     {
         id: 29,
@@ -321,7 +321,7 @@ const locations = [
         duration: '2h',
         bestSeason: 'Best: Jun-Oct',
         region: 'switzerland',
-        description: 'Alpine lake + meadow combination, mature path with strong sense of safety. Lake reflections are very stable in good weather, clear photography spots.'
+        description: '高山湖泊+草甸组合，成熟的步道，安全感强。好天气时湖面倒影非常稳定，清晰的摄影点。| Alpine lake + meadow combination, mature path with strong sense of safety. Lake reflections are very stable in good weather, clear photography spots.'
     },
     {
         id: 30,
@@ -332,7 +332,7 @@ const locations = [
         duration: '2.5h',
         bestSeason: 'Best: Jun-Sep',
         region: 'switzerland',
-        description: 'Walking along the Eiger north face, vertical rock walls create extreme sense of oppression. Path is clear but psychological scale is large, suitable for those not afraid of heights.'
+        description: '沿着艾格峰北壁行走，垂直的岩壁营造出极强的压迫感。路径清晰但心理尺度很大，适合不恐高的人。| Walking along the Eiger north face, vertical rock walls create extreme sense of oppression. Path is clear but psychological scale is large, suitable for those not afraid of heights.'
     },
     {
         id: 31,
@@ -343,7 +343,7 @@ const locations = [
         duration: '2.5-3h',
         bestSeason: 'Best: Jun-Oct',
         region: 'switzerland',
-        description: 'Glacial lake with deep blue color, strong sense of enclosure from lake shore and high rock walls. Can do short hike or loop around lake, perfect for a slower-paced day.'
+        description: '深蓝色的冰川湖，湖岸和高岩壁营造出强烈的封闭感。可以短途徒步或环湖，非常适合慢节奏的一天。| Glacial lake with deep blue color, strong sense of enclosure from lake shore and high rock walls. Can do short hike or loop around lake, perfect for a slower-paced day.'
     },
     {
         id: 32,
@@ -354,7 +354,7 @@ const locations = [
         duration: '3-4h',
         bestSeason: 'Best: Jun-Sep',
         region: 'switzerland',
-        description: 'Overlooking Europe\'s largest glacier, scale is extremely grand. Route itself is not difficult, but the "human-geology" contrast is very direct.'
+        description: '俯瞰欧洲最大的冰川，规模极其宏大。路线本身不难，但"人类-地质"的对比非常直接。| Overlooking Europe\'s largest glacier, scale is extremely grand. Route itself is not difficult, but the "human-geology" contrast is very direct.'
     },
     {
         id: 33,
@@ -365,7 +365,7 @@ const locations = [
         duration: '2h',
         bestSeason: 'Best: May-Oct',
         region: 'switzerland',
-        description: 'High-altitude trail along cliff edge, facing Schilthorn peak group. Villages, waterfalls, and mountain walls form extremely stable scenic composition.'
+        description: '沿着悬崖边缘的高海拔步道，面向雪朗峰群。村庄、瀑布和山壁形成极其稳定的风景构图。| High-altitude trail along cliff edge, facing Schilthorn peak group. Villages, waterfalls, and mountain walls form extremely stable scenic composition.'
     },
     {
         id: 34,
@@ -376,7 +376,7 @@ const locations = [
         duration: '2h',
         bestSeason: 'Best: Jun-Sep',
         region: 'switzerland',
-        description: 'Alpine plants + distant lake views, can see both Lake Thun and Lake Brienz simultaneously. High plant diversity, relaxed pace.'
+        description: '高山植物+远山湖景，可以同时看到图恩湖和布里恩茨湖。植物多样性高，节奏轻松。| Alpine plants + distant lake views, can see both Lake Thun and Lake Brienz simultaneously. High plant diversity, relaxed pace.'
     },
     {
         id: 35,
@@ -387,7 +387,7 @@ const locations = [
         duration: '2.5-3h',
         bestSeason: 'Best: May-Oct',
         region: 'switzerland',
-        description: 'From stone-built mountain village into valley hiking, scale suddenly tightens. Few people, weak commercial feel, more "lived-in Alps" atmosphere.'
+        description: '从石砌的山村进入山谷徒步，尺度突然收紧。人少，商业感弱，更有"生活化的阿尔卑斯"氛围。| From stone-built mountain village into valley hiking, scale suddenly tightens. Few people, weak commercial feel, more "lived-in Alps" atmosphere.'
     },
     {
         id: 36,
@@ -398,7 +398,7 @@ const locations = [
         duration: '3.5h',
         bestSeason: 'Best: Jun-Oct',
         region: 'switzerland',
-        description: 'Connecting multiple highland lakes, clean light and gentle terrain. Overall atmosphere is rational and restrained, "highly managed nature".'
+        description: '连接多个高地湖泊，光线干净，地形平缓。整体氛围理性克制，"高度管理的自然"。| Connecting multiple highland lakes, clean light and gentle terrain. Overall atmosphere is rational and restrained, "highly managed nature".'
     },
     // Austrian Alps trails
     {
@@ -410,7 +410,7 @@ const locations = [
         duration: '2h',
         bestSeason: 'Best: May-Oct',
         region: 'austria',
-        description: 'Lake, salt mining town, and steep mountain walls layered in the same frame, extremely high landscape density. Clearly commercialized, but terrain and scale are very typical.'
+        description: '湖泊、盐矿小镇和陡峭的山壁层叠在同一画面中，景观密度极高。明显商业化，但地形和尺度非常典型。| Lake, salt mining town, and steep mountain walls layered in the same frame, extremely high landscape density. Clearly commercialized, but terrain and scale are very typical.'
     },
     {
         id: 38,
@@ -421,7 +421,7 @@ const locations = [
         duration: '1.5h',
         bestSeason: 'Best: May-Oct',
         region: 'austria',
-        description: 'Crystal clear lake, can see Dachstein glacier reflections on sunny days. Short loop route but visually complete, perfect as a lightweight nature spot.'
+        description: '水晶般清澈的湖泊，晴天可以看到达赫斯坦冰川的倒影。短环线但视觉完整，非常适合作为轻量级自然景点。| Crystal clear lake, can see Dachstein glacier reflections on sunny days. Short loop route but visually complete, perfect as a lightweight nature spot.'
     },
     {
         id: 39,
@@ -432,7 +432,7 @@ const locations = [
         duration: '3-4h',
         bestSeason: 'Best: May-Oct',
         region: 'austria',
-        description: 'Lakes and forests alternating, gentle slopes, overall slow pace. "Livable Alps", more about living atmosphere than wilderness.'
+        description: '湖泊和森林交替，平缓的斜坡，整体节奏缓慢。"宜居的阿尔卑斯"，更注重生活氛围而非荒野。| Lakes and forests alternating, gentle slopes, overall slow pace. "Livable Alps", more about living atmosphere than wilderness.'
     },
     {
         id: 40,
@@ -443,7 +443,7 @@ const locations = [
         duration: '2h',
         bestSeason: 'Best: May-Sep',
         region: 'austria',
-        description: 'Europe\'s highest drop waterfall group, extremely high water volume, sound and humidity have strong presence. One of Austria\'s most "natural power display" routes.'
+        description: '欧洲落差最大的瀑布群，水量极大，声音和湿度存在感强烈。奥地利最具"自然力量展示"的路线之一。| Europe\'s highest drop waterfall group, extremely high water volume, sound and humidity have strong presence. One of Austria\'s most "natural power display" routes.'
     },
     {
         id: 41,
@@ -454,7 +454,7 @@ const locations = [
         duration: '2-3h',
         bestSeason: 'Best: Jun-Sep',
         region: 'austria',
-        description: 'Short hiking combinations along high alpine road, can observe glaciers and bare rock up close. Grand natural scale, but clear sense of human intervention.'
+        description: '沿高山公路的短途徒步组合，可以近距离观察冰川和裸露的岩石。宏大的自然尺度，但人类干预感明显。| Short hiking combinations along high alpine road, can observe glaciers and bare rock up close. Grand natural scale, but clear sense of human intervention.'
     },
     {
         id: 42,
@@ -465,7 +465,7 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: Jun-Oct',
         region: 'austria',
-        description: 'Clear perspective shifts between lake and hillside, overlooking Zell am See panorama. Perfect for flexible itinerary when weather is unstable.'
+        description: '湖泊和山坡之间视角转换清晰，俯瞰滨湖采尔全景。天气不稳定时非常适合灵活安排行程。| Clear perspective shifts between lake and hillside, overlooking Zell am See panorama. Perfect for flexible itinerary when weather is unstable.'
     },
     {
         id: 43,
@@ -476,7 +476,7 @@ const locations = [
         duration: '4-5h',
         bestSeason: 'Best: Jun-Sep',
         region: 'austria',
-        description: 'Austria\'s largest national park, glaciers, wetlands, and wide valleys coexist. Open space, relatively less human intervention, closer to "ecological Alps".'
+        description: '奥地利最大的国家公园，冰川、湿地和宽阔的山谷共存。开阔的空间，相对较少的人类干预，更接近"生态阿尔卑斯"。| Austria\'s largest national park, glaciers, wetlands, and wide valleys coexist. Open space, relatively less human intervention, closer to "ecological Alps".'
     },
     {
         id: 44,
@@ -487,7 +487,7 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: May-Oct',
         region: 'austria',
-        description: 'Highland plateau terrain, meadows and rock walls suddenly unfold. Perfect for short trips from city into mountains, low technical hiking requirements.'
+        description: '高地高原地形，草甸和岩壁突然展开。非常适合从城市到山区的短途旅行，技术徒步要求低。| Highland plateau terrain, meadows and rock walls suddenly unfold. Perfect for short trips from city into mountains, low technical hiking requirements.'
     },
     {
         id: 45,
@@ -498,7 +498,7 @@ const locations = [
         duration: '5-6h',
         bestSeason: 'Best: Jun-Sep',
         region: 'austria',
-        description: 'Massive limestone plateau, open space with strong sense of direction. Few people, sparse trail markers, more suitable for experienced hikers.'
+        description: '巨大的石灰岩高原，开阔的空间，方向感强。人少，路标稀疏，更适合有经验的徒步者。| Massive limestone plateau, open space with strong sense of direction. Few people, sparse trail markers, more suitable for experienced hikers.'
     },
     {
         id: 46,
@@ -509,7 +509,7 @@ const locations = [
         duration: '4-5h',
         bestSeason: 'Best: Jun-Sep',
         region: 'austria',
-        description: 'Area where steep rock walls and pastures coexist, very three-dimensional mountain mass. More "substantial" than Dolomites, but less dramatic composition.'
+        description: '陡峭岩壁和牧场共存的区域，非常立体的山体。比多洛米蒂更"厚重"，但构图不那么戏剧性。| Area where steep rock walls and pastures coexist, very three-dimensional mountain mass. More "substantial" than Dolomites, but less dramatic composition.'
     },
     // French Alps trails
     {
@@ -521,7 +521,7 @@ const locations = [
         duration: '2.5-3h',
         bestSeason: 'Best: Jun-Sep',
         region: 'france',
-        description: 'Classic alpine lake route overlooking Mont Blanc massif, lake surface can reflect snow peak outlines on sunny days. Many tourists, but composition is extremely stable.'
+        description: '经典的高山湖泊路线，俯瞰勃朗峰山体，晴天湖面可以反射雪峰轮廓。游客很多，但构图极其稳定。| Classic alpine lake route overlooking Mont Blanc massif, lake surface can reflect snow peak outlines on sunny days. Many tourists, but composition is extremely stable.'
     },
     {
         id: 48,
@@ -532,7 +532,7 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: Jun-Oct',
         region: 'france',
-        description: 'Traversing Chamonix valley along mountainside, facing complete Mont Blanc massif. Mature route with moderate slopes, a "precisely designed viewing trail".'
+        description: '沿着山坡穿越霞慕尼山谷，面向完整的勃朗峰山体。成熟的路线，坡度适中，一条"精心设计的观景步道"。| Traversing Chamonix valley along mountainside, facing complete Mont Blanc massif. Mature route with moderate slopes, a "precisely designed viewing trail".'
     },
     {
         id: 49,
@@ -543,7 +543,7 @@ const locations = [
         duration: '1.5h',
         bestSeason: 'Year-round',
         region: 'france',
-        description: 'Close-up view of geological structures after glacier retreat, extremely strong contrast. Not "beautiful", but direct sense of time and scale.'
+        description: '冰川退缩后地质结构的特写视图，对比极其强烈。不算"美丽"，但时间和尺度的感知非常直接。| Close-up view of geological structures after glacier retreat, extremely strong contrast. Not "beautiful", but direct sense of time and scale.'
     },
     {
         id: 50,
@@ -554,7 +554,7 @@ const locations = [
         duration: '1-1.5h',
         bestSeason: 'Year-round (weather dependent)',
         region: 'france',
-        description: 'Cable car directly to 3800m elevation, extreme vertical sense and exposed views coexist. More of an experience point than a complete hike.'
+        description: '缆车直达3800米海拔，极端的垂直感和暴露的视野共存。更像是一个体验点而非完整的徒步路线。| Cable car directly to 3800m elevation, extreme vertical sense and exposed views coexist. More of an experience point than a complete hike.'
     },
     {
         id: 51,
@@ -565,7 +565,7 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: Apr-Oct',
         region: 'france',
-        description: 'Lakeshore and hillside parallel, water body and city boundaries very clear. Overall atmosphere closer to "livable landscape" than pure alpine.'
+        description: '湖岸和山坡平行，水体与城市边界非常清晰。整体氛围更接近"宜居景观"而非纯阿尔卑斯。| Lakeshore and hillside parallel, water body and city boundaries very clear. Overall atmosphere closer to "livable landscape" than pure alpine.'
     },
     {
         id: 52,
@@ -576,7 +576,7 @@ const locations = [
         duration: '4-6h',
         bestSeason: 'Best: Jun-Sep',
         region: 'france',
-        description: 'One of France\'s earliest national parks, glacial valleys and alpine pastures coexist. Wilder than Switzerland, less facilities than Austria.'
+        description: '法国最早的国家公园之一，冰川山谷和高山牧场共存。比瑞士更野性，设施比奥地利少。| One of France\'s earliest national parks, glacial valleys and alpine pastures coexist. Wilder than Switzerland, less facilities than Austria.'
     },
     {
         id: 53,
@@ -587,7 +587,7 @@ const locations = [
         duration: '4-5h',
         bestSeason: 'Best: Jun-Sep',
         region: 'france',
-        description: 'High mountain area near Italian border, few people, dry terrain. Colors lean gray-green, overall more rough and marginal.'
+        description: '靠近意大利边境的高山地区，人少，地形干燥。色彩偏灰绿，整体更粗糙和边缘化。| High mountain area near Italian border, few people, dry terrain. Colors lean gray-green, overall more rough and marginal.'
     },
     {
         id: 54,
@@ -598,6 +598,95 @@ const locations = [
         duration: '3h',
         bestSeason: 'Best: Jun-Sep',
         region: 'france',
-        description: 'Ski area transforms into alpine meadows in summer, open and gently rolling. Typical example of "functional mountain" converted to hiking space.'
+        description: '滑雪区在夏季转变为高山草甸，开阔且平缓起伏。"功能性山地"转变为徒步空间的典型例子。| Ski area transforms into alpine meadows in summer, open and gently rolling. Typical example of "functional mountain" converted to hiking space.'
+    },
+    // German Alps trails
+    {
+        id: 55,
+        name: 'Zugspitze Summit Area',
+        lat: 47.4211,
+        lng: 10.9853,
+        distance: '6–8km',
+        duration: '2.5–3h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'germany',
+        description: '德国最高峰，可缆车直达。视野横跨德奥边境，山体尺度不如瑞士但象征意义极强，人工设施感明显。| Germany\'s highest peak, accessible by cable car. Views span the German-Austrian border, mountain scale less impressive than Switzerland but highly symbolic, strong sense of artificial facilities.'
+    },
+    {
+        id: 56,
+        name: 'Partnach Gorge',
+        lat: 47.4833,
+        lng: 11.1167,
+        distance: '2.5km',
+        duration: '1–1.5h',
+        bestSeason: 'Year-round',
+        region: 'germany',
+        description: '狭窄峡谷、湍急水流与隧道式步道，非常贴近身体尺度。短程但感官密度高，适合轻量自然体验。| Narrow gorge, rushing waters and tunnel-like pathways, very close to human scale. Short distance but high sensory density, perfect for lightweight nature experience.'
+    },
+    {
+        id: 57,
+        name: 'Mittenwald – Karwendel Panorama Trail',
+        lat: 47.4333,
+        lng: 11.2667,
+        distance: '8–10km',
+        duration: '3–4h',
+        bestSeason: 'Best: Jun-Oct',
+        region: 'germany',
+        description: '从彩绘小镇进入 Karwendel 山脉，森林转为开阔草坡。整体气质安静、生活化，人少于楚格峰区域。| Entering Karwendel mountains from painted town, forests transition to open grassy slopes. Overall atmosphere quiet and lived-in, fewer people than Zugspitze area.'
+    },
+    {
+        id: 58,
+        name: 'Eibsee Loop',
+        lat: 47.4500,
+        lng: 10.9833,
+        distance: '7.5km',
+        duration: '2–2.5h',
+        bestSeason: 'Year-round',
+        region: 'germany',
+        description: '湖水清澈，正对楚格峰北壁。路线平缓、完成度极高，是"德国式秩序自然"的代表。| Crystal clear lake facing Zugspitze north face. Gentle route with extremely high completion, representative of "German ordered nature".'
+    },
+    {
+        id: 59,
+        name: 'Watzmann East Face View Trail',
+        lat: 47.5500,
+        lng: 12.9333,
+        distance: '8–12km',
+        duration: '4–5h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'germany',
+        description: '德国最具存在感的山体之一，东壁极具压迫感。徒步本身不难，但空间尺度明显严肃。| One of Germany\'s most imposing mountains, east face extremely oppressive. Hiking itself not difficult, but spatial scale clearly serious.'
+    },
+    {
+        id: 60,
+        name: 'Königssee – Obersee Walk',
+        lat: 47.5667,
+        lng: 12.9833,
+        distance: '5–7km',
+        duration: '2–3h',
+        bestSeason: 'Best: May-Oct',
+        region: 'germany',
+        description: '峡谷型湖泊，湖岸几乎垂直。需乘船进入，之后步行到 Obersee，景观极端"完成"。| Gorge-type lake with nearly vertical shores. Requires boat access, then walk to Obersee, landscape extremely "complete".'
+    },
+    {
+        id: 61,
+        name: 'Alpsee & Neuschwanstein Foothills',
+        lat: 47.5576,
+        lng: 10.7494,
+        distance: '6km',
+        duration: '2h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'germany',
+        description: '城堡脚下的湖泊与森林步道，历史叙事强于自然野性，但构图稳定、易进入。| Lake and forest trails at castle foothills, historical narrative stronger than natural wildness, but composition stable and easily accessible.'
+    },
+    {
+        id: 62,
+        name: 'Berchtesgaden National Park Trail',
+        lat: 47.6333,
+        lng: 13.0000,
+        distance: '10–15km',
+        duration: '4–6h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'germany',
+        description: '德国唯一的阿尔卑斯国家公园，湖泊、湿地、林线变化明显。自然保护强度高，人为干预相对少。| Germany\'s only Alpine national park, lakes, wetlands and treeline changes are obvious. High nature protection intensity, relatively less human intervention.'
     }
 ];

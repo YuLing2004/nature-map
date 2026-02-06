@@ -229,6 +229,12 @@ body {
     border: 1px solid rgba(49, 130, 206, 0.3);
 }
 
+.region-germany {
+    background: linear-gradient(135deg, rgba(237, 202, 24, 0.15) 0%, rgba(212, 172, 13, 0.15) 100%);
+    color: #edca18;
+    border: 1px solid rgba(237, 202, 24, 0.3);
+}
+
 .location-meta {
     font-size: 0.875rem;
     color: #666;
@@ -567,6 +573,29 @@ body {
 }
 
 .custom-marker-france::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* Custom map marker - Germany (Yellow) */
+.custom-marker-germany {
+    background: linear-gradient(135deg, #edca18 0%, #d4ac0d 100%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    border: 3px solid white;
+    box-shadow: 0 3px 12px rgba(237, 202, 24, 0.4);
+}
+
+.custom-marker-germany::after {
     content: '';
     position: absolute;
     width: 14px;
