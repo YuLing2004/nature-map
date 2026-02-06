@@ -200,6 +200,61 @@ const locations = [
         region: 'italy',
         description: '环湖中央岛屿徒步，几乎没有机动车，村庄规模很小，当地生活氛围浓厚。湖区最不"过度旅游化"的地方之一。| Hiking around the lake\'s central island, almost no motor vehicles, very small village scale, strong local life atmosphere. One of the least "over-touristed" spots in the lake region.'
     },
+    {
+        id: 63,
+        name: 'Lake Orta – San Giulio Island Walk',
+        lat: 45.8167,
+        lng: 8.4000,
+        distance: '5km',
+        duration: '1.5h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'italy',
+        description: '最安静的意大利湖区之一，小岛上有中世纪修道院。湖岸步道平缓，整体氛围宁静优雅，游客相对较少。| One of Italy\'s quietest lake regions, medieval monastery on small island. Gentle lakeside trail, overall atmosphere peaceful and elegant, relatively fewer tourists.'
+    },
+    {
+        id: 64,
+        name: 'Limone sul Garda – Limonaia Trail',
+        lat: 45.8167,
+        lng: 10.7833,
+        distance: '4km',
+        duration: '1.5h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'italy',
+        description: '沿着柠檬园和橄榄园的步道，俯瞰加尔达湖。历史悠久的柠檬种植传统，色彩丰富，适合轻松漫步。| Trail along lemon and olive groves, overlooking Lake Garda. Historic lemon cultivation tradition, rich colors, perfect for leisurely stroll.'
+    },
+    {
+        id: 65,
+        name: 'Malcesine – Monte Baldo Cable Car Walk',
+        lat: 45.7667,
+        lng: 10.8167,
+        distance: '6km',
+        duration: '2h',
+        bestSeason: 'Best: May-Oct',
+        region: 'italy',
+        description: '缆车直达山顶，然后沿山脊步道行走。360度湖景，高山植物丰富，风大但视野极佳。| Cable car to summit, then ridge trail walk. 360-degree lake views, rich alpine flora, windy but excellent vistas.'
+    },
+    {
+        id: 66,
+        name: 'Cannobio Lakeside Promenade',
+        lat: 46.0667,
+        lng: 8.7000,
+        distance: '3km',
+        duration: '1h',
+        bestSeason: 'Year-round',
+        region: 'italy',
+        description: '马焦雷湖北端的优雅步道，连接历史中心与自然湖岸。适合傍晚散步，光线柔和，氛围浪漫。| Elegant promenade at Lake Maggiore\'s northern end, connecting historic center with natural lakeshore. Perfect for evening stroll, soft light, romantic atmosphere.'
+    },
+    {
+        id: 67,
+        name: 'Tremezzo – Villa Carlotta Gardens Walk',
+        lat: 45.9833,
+        lng: 9.2167,
+        distance: '4.5km',
+        duration: '1.5h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'italy',
+        description: '沿着科莫湖岸，经过著名别墅花园。人工与自然完美结合，春季杜鹃花盛开时尤其美丽。| Along Lake Como shore, passing famous villa gardens. Perfect blend of man-made and natural, especially beautiful when rhododendrons bloom in spring.'
+    },
     // Dolomites trails
     {
         id: 19,
@@ -288,6 +343,61 @@ const locations = [
         bestSeason: 'Best: Jun-Sep',
         region: 'dolomites',
         description: '目的地是乳蓝色的冰川湖，颜色极其不真实。某些路段有钢索辅助，小段暴露但无技术难度，雨后很滑。| Destination is a milky blue glacial lake, color is extremely unreal. Some sections have steel cable assistance, small exposed sections but not technical, slippery after rain.'
+    },
+    {
+        id: 68,
+        name: 'Lago di Carezza',
+        lat: 46.4167,
+        lng: 11.5833,
+        distance: '1.5km',
+        duration: '0.5h',
+        bestSeason: 'Best: May-Oct',
+        region: 'dolomites',
+        description: '小巧但色彩极美的湖泊，被森林环绕，倒映拉特马尔山脉。短途环湖步道，非常适合拍照和短暂停留。| Small but extremely colorful lake, surrounded by forests, reflecting Latemar mountains. Short loop trail, perfect for photography and brief stop.'
+    },
+    {
+        id: 69,
+        name: 'Passo Rolle Panorama Trail',
+        lat: 46.3000,
+        lng: 11.7833,
+        distance: '7km',
+        duration: '2.5h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'dolomites',
+        description: '从山口出发的高原步道，面向帕拉迪索山群。开阔的高山草甸，夏季野花盛开，视野极其开阔。| Highland trail starting from pass, facing Pale di San Martino group. Open alpine meadows, wildflowers in summer, extremely open vistas.'
+    },
+    {
+        id: 70,
+        name: 'Marmolada Glacier Viewpoint',
+        lat: 46.4333,
+        lng: 11.8500,
+        distance: '5km',
+        duration: '2h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'dolomites',
+        description: '多洛米蒂唯一的冰川，缆车可达观景点。冰川与岩石山峰的强烈对比，感受气候变化的影响。| Dolomites\' only glacier, cable car to viewpoint. Strong contrast between glacier and rock peaks, sense of climate change impact.'
+    },
+    {
+        id: 71,
+        name: 'Cortina d\'Ampezzo – Faloria Ridge Walk',
+        lat: 46.5333,
+        lng: 12.1333,
+        distance: '8km',
+        duration: '3h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'dolomites',
+        description: '从著名滑雪小镇出发，缆车上山后沿山脊行走。俯瞰阿姆佩佐山谷，多洛米蒂经典视角。| Starting from famous ski town, cable car up then ridge walk. Overlooking Ampezzo valley, classic Dolomites perspective.'
+    },
+    {
+        id: 72,
+        name: 'Lago di Fedaia Loop',
+        lat: 46.4500,
+        lng: 11.8667,
+        distance: '4km',
+        duration: '1.5h',
+        bestSeason: 'Best: Jun-Oct',
+        region: 'dolomites',
+        description: '人工水库但位置绝佳，正对马尔莫拉达山。平缓环湖步道，适合家庭出游，风景稳定。| Artificial reservoir but excellent location, facing Marmolada. Gentle loop trail, suitable for families, stable scenery.'
     },
     // Swiss Alps trails
     {
@@ -400,6 +510,61 @@ const locations = [
         region: 'switzerland',
         description: '连接多个高地湖泊，光线干净，地形平缓。整体氛围理性克制，"高度管理的自然"。| Connecting multiple highland lakes, clean light and gentle terrain. Overall atmosphere is rational and restrained, "highly managed nature".'
     },
+    {
+        id: 73,
+        name: 'Lauterbrunnen Valley Walk',
+        lat: 46.5833,
+        lng: 7.9000,
+        distance: '6km',
+        duration: '2h',
+        bestSeason: 'Best: May-Oct',
+        region: 'switzerland',
+        description: '著名的72瀑布谷，垂直的岩壁和瀑布群。平缓的谷底步道，适合所有年龄，感受瀑布的力量。| Famous valley of 72 waterfalls, vertical cliffs and waterfall groups. Gentle valley floor trail, suitable for all ages, feel waterfall power.'
+    },
+    {
+        id: 74,
+        name: 'Zermatt – Matterhorn Glacier Paradise',
+        lat: 45.9833,
+        lng: 7.7500,
+        distance: '4km',
+        duration: '1.5h',
+        bestSeason: 'Year-round',
+        region: 'switzerland',
+        description: '缆车直达3883米，欧洲最高的缆车站。近距离观察冰川和马特洪峰，极端高海拔体验。| Cable car to 3883m, Europe\'s highest cable car station. Close-up glacier and Matterhorn views, extreme high-altitude experience.'
+    },
+    {
+        id: 75,
+        name: 'Lake Lucerne – Rigi Panorama Trail',
+        lat: 47.0500,
+        lng: 8.4833,
+        distance: '8km',
+        duration: '3h',
+        bestSeason: 'Best: May-Oct',
+        region: 'switzerland',
+        description: '从瑞吉山俯瞰卢塞恩湖全景，经典的山湖组合。成熟的步道系统，适合一日游，视野开阔。| Overlooking Lake Lucerne panorama from Rigi, classic mountain-lake combination. Mature trail system, perfect for day trip, open vistas.'
+    },
+    {
+        id: 76,
+        name: 'Appenzell – Säntis Summit Trail',
+        lat: 47.2500,
+        lng: 9.3333,
+        distance: '6km',
+        duration: '2.5h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'switzerland',
+        description: '缆车上山后沿山脊步道，俯瞰博登湖和阿尔卑斯山。传统瑞士乡村氛围，人相对较少。| Cable car up then ridge trail, overlooking Lake Constance and Alps. Traditional Swiss village atmosphere, relatively fewer people.'
+    },
+    {
+        id: 77,
+        name: 'Jungfraujoch – Top of Europe Walk',
+        lat: 46.5500,
+        lng: 7.9833,
+        distance: '3km',
+        duration: '1h',
+        bestSeason: 'Year-round',
+        region: 'switzerland',
+        description: '欧洲最高的火车站，3454米海拔。冰川步道和观景台，极端高海拔体验，需要适应。| Europe\'s highest railway station, 3454m elevation. Glacier trail and viewing platforms, extreme high-altitude experience, requires acclimatization.'
+    },
     // Austrian Alps trails
     {
         id: 37,
@@ -511,6 +676,61 @@ const locations = [
         region: 'austria',
         description: '陡峭岩壁和牧场共存的区域，非常立体的山体。比多洛米蒂更"厚重"，但构图不那么戏剧性。| Area where steep rock walls and pastures coexist, very three-dimensional mountain mass. More "substantial" than Dolomites, but less dramatic composition.'
     },
+    {
+        id: 78,
+        name: 'Innsbruck – Nordkette Cable Car Walk',
+        lat: 47.2833,
+        lng: 11.4000,
+        distance: '5km',
+        duration: '2h',
+        bestSeason: 'Best: May-Oct',
+        region: 'austria',
+        description: '从因斯布鲁克市中心缆车直达山顶，俯瞰整个城市和因河谷。城市与自然的完美结合，交通便利。| Cable car from Innsbruck city center to summit, overlooking entire city and Inn valley. Perfect blend of city and nature, easily accessible.'
+    },
+    {
+        id: 79,
+        name: 'St. Anton – Verwall Valley Trail',
+        lat: 47.1333,
+        lng: 10.2667,
+        distance: '10km',
+        duration: '3.5h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'austria',
+        description: '从著名滑雪小镇进入山谷徒步，传统阿尔卑斯牧场氛围。人少安静，适合想要远离人群的徒步者。| Entering valley hike from famous ski town, traditional Alpine pasture atmosphere. Few people and quiet, suitable for hikers seeking solitude.'
+    },
+    {
+        id: 80,
+        name: 'Wörthersee Lakeside Trail',
+        lat: 46.6167,
+        lng: 14.2667,
+        distance: '12km',
+        duration: '3h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'austria',
+        description: '奥地利最温暖的湖泊，湖岸步道连接多个小镇。适合轻松骑行或步行，夏季游泳很受欢迎。| Austria\'s warmest lake, lakeside trail connecting multiple towns. Perfect for leisurely cycling or walking, popular for swimming in summer.'
+    },
+    {
+        id: 81,
+        name: 'Bad Gastein – Waterfall Path',
+        lat: 47.1167,
+        lng: 13.1333,
+        distance: '3km',
+        duration: '1h',
+        bestSeason: 'Year-round',
+        region: 'austria',
+        description: '温泉小镇的瀑布步道，历史悠久的度假胜地。短途但风景优美，结合了自然和历史建筑。| Waterfall trail in spa town, historic resort destination. Short but scenic, combining nature and historic architecture.'
+    },
+    {
+        id: 82,
+        name: 'Dachstein – Five Fingers Viewpoint',
+        lat: 47.5167,
+        lng: 13.6167,
+        distance: '2km',
+        duration: '1h',
+        bestSeason: 'Best: May-Oct',
+        region: 'austria',
+        description: '缆车上山后步行到著名的"五指"观景台，悬挑在悬崖上。极端刺激的观景体验，需要不恐高。| Cable car up then walk to famous "Five Fingers" viewing platform, cantilevered over cliff. Extremely thrilling viewing experience, requires no fear of heights.'
+    },
     // French Alps trails
     {
         id: 47,
@@ -600,6 +820,50 @@ const locations = [
         region: 'france',
         description: '滑雪区在夏季转变为高山草甸，开阔且平缓起伏。"功能性山地"转变为徒步空间的典型例子。| Ski area transforms into alpine meadows in summer, open and gently rolling. Typical example of "functional mountain" converted to hiking space.'
     },
+    {
+        id: 88,
+        name: 'Chamonix – Petit Balcon Sud',
+        lat: 45.9167,
+        lng: 6.8667,
+        distance: '6km',
+        duration: '2h',
+        bestSeason: 'Best: Jun-Sep',
+        region: 'france',
+        description: '霞慕尼南侧的小阳台步道，面向勃朗峰。比大阳台更安静，适合想要避开人群的徒步者。| Small balcony trail on Chamonix south side, facing Mont Blanc. Quieter than Grand Balcon, suitable for hikers seeking fewer crowds.'
+    },
+    {
+        id: 89,
+        name: 'Lake Geneva – Évian-les-Bains Promenade',
+        lat: 46.4000,
+        lng: 6.5833,
+        distance: '5km',
+        duration: '1.5h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'france',
+        description: '日内瓦湖法国一侧的优雅步道，经过著名温泉小镇。湖光山色，适合轻松漫步，氛围优雅。| Elegant promenade on French side of Lake Geneva, passing famous spa town. Lake and mountain views, perfect for leisurely stroll, elegant atmosphere.'
+    },
+    {
+        id: 90,
+        name: 'Grenoble – Bastille Hill Walk',
+        lat: 45.1833,
+        lng: 5.7167,
+        distance: '3km',
+        duration: '1h',
+        bestSeason: 'Year-round',
+        region: 'france',
+        description: '从城市中心到堡垒的短途步道，俯瞰格勒诺布尔和周围山脉。城市与自然的结合，交通便利。| Short trail from city center to fortress, overlooking Grenoble and surrounding mountains. Blend of city and nature, easily accessible.'
+    },
+    {
+        id: 91,
+        name: 'Les Deux Alpes – Glacier Walk',
+        lat: 45.0167,
+        lng: 6.1333,
+        distance: '4km',
+        duration: '1.5h',
+        bestSeason: 'Year-round',
+        region: 'france',
+        description: '夏季滑雪胜地的冰川步道，高海拔体验。可以近距离观察冰川，感受高山的极端环境。| Glacier trail in summer ski resort, high-altitude experience. Can observe glaciers up close, feel extreme alpine environment.'
+    },
     // German Alps trails
     {
         id: 55,
@@ -688,5 +952,60 @@ const locations = [
         bestSeason: 'Best: Jun-Sep',
         region: 'germany',
         description: '德国唯一的阿尔卑斯国家公园，湖泊、湿地、林线变化明显。自然保护强度高，人为干预相对少。| Germany\'s only Alpine national park, lakes, wetlands and treeline changes are obvious. High nature protection intensity, relatively less human intervention.'
+    },
+    {
+        id: 83,
+        name: 'Garmisch-Partenkirchen – Partnachklamm Extended',
+        lat: 47.4833,
+        lng: 11.1167,
+        distance: '6km',
+        duration: '2.5h',
+        bestSeason: 'Year-round',
+        region: 'germany',
+        description: '帕特纳赫峡谷的延伸路线，从峡谷到高山草甸。路线变化丰富，从狭窄到开阔，体验完整。| Extended route from Partnach Gorge, from gorge to alpine meadows. Rich route variation, from narrow to open, complete experience.'
+    },
+    {
+        id: 84,
+        name: 'Tegernsee Loop',
+        lat: 47.7000,
+        lng: 11.7500,
+        distance: '9km',
+        duration: '2.5h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'germany',
+        description: '慕尼黑附近的优雅湖泊，环湖步道平缓。传统巴伐利亚度假氛围，适合家庭出游，设施完善。| Elegant lake near Munich, gentle loop trail. Traditional Bavarian resort atmosphere, suitable for families, well-equipped.'
+    },
+    {
+        id: 85,
+        name: 'Schliersee – Spitzingsee Trail',
+        lat: 47.7167,
+        lng: 11.8667,
+        distance: '8km',
+        duration: '2.5h',
+        bestSeason: 'Best: May-Oct',
+        region: 'germany',
+        description: '连接两个高山湖泊的步道，穿过森林和草甸。相对安静的区域，游客较少，自然氛围浓厚。| Trail connecting two alpine lakes, through forests and meadows. Relatively quiet area, fewer tourists, strong natural atmosphere.'
+    },
+    {
+        id: 86,
+        name: 'Ramsau – Hintersee Loop',
+        lat: 47.6167,
+        lng: 12.9000,
+        distance: '5km',
+        duration: '1.5h',
+        bestSeason: 'Best: May-Oct',
+        region: 'germany',
+        description: '贝希特斯加登附近的小湖，正对瓦茨曼山。短途环湖步道，风景如画，适合轻松漫步。| Small lake near Berchtesgaden, facing Watzmann. Short loop trail, picturesque scenery, perfect for leisurely stroll.'
+    },
+    {
+        id: 87,
+        name: 'Füssen – Forggensee Lakeside',
+        lat: 47.5667,
+        lng: 10.7000,
+        distance: '7km',
+        duration: '2h',
+        bestSeason: 'Best: Apr-Oct',
+        region: 'germany',
+        description: '新天鹅堡附近的人工湖，湖岸步道连接多个景点。结合历史与自然，适合一日游安排。| Artificial lake near Neuschwanstein, lakeside trail connecting multiple attractions. Combining history and nature, perfect for day trip planning.'
     }
 ];
